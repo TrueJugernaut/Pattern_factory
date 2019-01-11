@@ -1,4 +1,5 @@
 package pattern.factory;
 
-public class User {
+public interface User {
+    String className();
 }
