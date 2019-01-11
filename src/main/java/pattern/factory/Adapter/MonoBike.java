@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.Adapter;
 
 public interface MonoBike {
     void ride();

@@ -1,4 +1,4 @@
-import pattern.factory.AdapterPatternExample;
+import pattern.factory.Adapter.AdapterPatternExample;
 import pattern.factory.BuilderPatternExample;
 import pattern.factory.Pattern;
 import pattern.factory.PatternExample;
