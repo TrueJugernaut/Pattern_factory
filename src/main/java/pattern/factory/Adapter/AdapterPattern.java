@@ -1,4 +1,6 @@
-package pattern.factory;
+package pattern.factory.Adapter;
+
+import pattern.factory.Pattern;
 
 public class AdapterPattern implements Pattern, MonoBike {
     public static void main(String[] args) {
