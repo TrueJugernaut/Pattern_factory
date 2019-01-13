@@ -6,3 +6,4 @@ public class HomePc implements Computer {
         System.out.println("Simple Computer created");
     }
 }
+

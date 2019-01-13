@@ -9,3 +9,4 @@ public class AbstractFactoryPatternExample implements PatternExample {
         return new AbstractFactoryPattern();
     }
 }
+

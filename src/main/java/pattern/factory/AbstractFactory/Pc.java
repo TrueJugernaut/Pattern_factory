@@ -6,3 +6,4 @@ public class Pc implements Laptop {
         System.out.println("powerful laptop created!");
     }
 }
+

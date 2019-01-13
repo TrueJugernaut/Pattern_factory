@@ -6,3 +6,4 @@ public class Mac implements Laptop {
         System.out.println("$with british accent$ - perfect compuktar");
     }
 }
+

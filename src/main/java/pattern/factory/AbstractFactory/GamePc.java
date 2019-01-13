@@ -6,3 +6,4 @@ public class GamePc implements Computer {
         System.out.println("Powerful computer created");
     }
 }
+

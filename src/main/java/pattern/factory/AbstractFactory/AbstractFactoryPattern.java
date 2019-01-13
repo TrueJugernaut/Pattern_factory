@@ -19,3 +19,4 @@ public class AbstractFactoryPattern implements Pattern {
         return "AbstractFactoryPattern";
     }
 }
+

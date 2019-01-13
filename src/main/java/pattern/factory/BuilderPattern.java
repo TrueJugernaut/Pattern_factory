@@ -3,7 +3,6 @@ package pattern.factory;
 public class BuilderPattern implements Pattern{
     private String firstName;
     private String lastName;
-
     private BuilderPattern() {
     }
 

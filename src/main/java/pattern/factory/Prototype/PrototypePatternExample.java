@@ -14,3 +14,4 @@ public class PrototypePatternExample implements PatternExample {
         return null;
     }
 }
+
