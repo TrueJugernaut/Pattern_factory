@@ -11,3 +11,4 @@ public class AdapterPatternExample implements PatternExample {
         return new AdapterPattern(new SingleBike());
     }
 }
+

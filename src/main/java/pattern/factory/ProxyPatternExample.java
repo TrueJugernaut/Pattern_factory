@@ -6,3 +6,4 @@ public class ProxyPatternExample implements PatternExample{
         return new ProxyPattern();
     }
 }
+

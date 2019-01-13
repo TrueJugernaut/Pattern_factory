@@ -6,3 +6,4 @@ public class UserImpl implements User{
         return this.getClass().getSimpleName();
     }
 }
+

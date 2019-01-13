@@ -24,3 +24,4 @@ public class AdapterPattern implements Pattern, MonoBike {
         return "Adapter";
     }
 }
+

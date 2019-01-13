@@ -14,3 +14,4 @@ public class ProxyPattern implements Pattern, User {
         return user.className();
     }
 }
+
