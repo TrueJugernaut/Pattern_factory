@@ -6,4 +6,3 @@ public class SingltonePatternExample implements PatternExample{
         return SingletonPattern.getInstance();
     }
 }
-

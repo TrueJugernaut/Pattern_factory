@@ -1,14 +1,14 @@
 package pattern.factory;
 
 public class SingletonPattern implements Pattern{
-    private static SingletonPattern singleton;
+    private static SingletonPattern example;
     private SingletonPattern() {
     }
     public static SingletonPattern getInstance() {
-        if(singleton == null) {
-            singleton = new SingletonPattern();
+        if(example == null) {
+            example = new SingletonPattern();
         }
-        return singleton;
+        return example;
     }
 
     @Override

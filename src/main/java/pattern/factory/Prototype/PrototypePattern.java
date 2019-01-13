@@ -20,4 +20,3 @@ public class PrototypePattern implements Cloneable, Pattern {
         return "Prototype";
     }
 }
-
