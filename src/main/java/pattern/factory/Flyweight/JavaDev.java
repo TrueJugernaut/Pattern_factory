@@ -8,4 +8,3 @@ public class JavaDev implements Developer {
         System.out.println("writing Java code...");
     }
 }
-

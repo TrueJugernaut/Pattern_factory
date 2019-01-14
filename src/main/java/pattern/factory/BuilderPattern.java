@@ -30,6 +30,7 @@ public class BuilderPattern implements Pattern{
             BuilderPattern.this.firstName = firstName;
             return this;
         }
+
         public Builder setLastName() {
             BuilderPattern.this.lastName = lastName;
             return this;

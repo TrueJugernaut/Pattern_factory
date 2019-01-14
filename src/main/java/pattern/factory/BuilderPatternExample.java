@@ -6,4 +6,3 @@ public class BuilderPatternExample implements PatternExample{
         return BuilderPattern.newBuilder().build();
     }
 }
-

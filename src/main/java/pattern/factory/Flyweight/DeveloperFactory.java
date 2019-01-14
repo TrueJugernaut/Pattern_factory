@@ -25,4 +25,3 @@ public class DeveloperFactory {
         return developer;
     }
 }
-

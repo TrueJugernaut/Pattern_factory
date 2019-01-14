@@ -31,4 +31,3 @@ public class Main {
         System.out.println("I'm " + abstractFatory.getPatternName());
     }
 }
-

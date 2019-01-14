@@ -12,4 +12,3 @@ public class LaptopFactory implements Factory{
         }
     }
 }
-
