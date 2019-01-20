@@ -6,6 +6,11 @@ public class BuilderPattern implements Pattern{
     private BuilderPattern() {
     }
 
+    public BuilderPattern(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -14,8 +19,8 @@ public class BuilderPattern implements Pattern{
         return lastName;
     }
 
-    public static Builder newBuilder() {
-        return new BuilderPattern().new Builder();
+    public static Builder builder() {
+        return new Builder();
     }
 
     @Override
@@ -23,20 +28,21 @@ public class BuilderPattern implements Pattern{
         return "Builder";
     }
 
-    public class Builder {
-        public Builder() {
-        }
-        public Builder setFirstName() {
-            BuilderPattern.this.firstName = firstName;
+    public static class Builder {
+        private String firstName;
+        private String lastName;
+
+        public Builder firstName() {
+            this.firstName = firstName;
             return this;
         }
 
-        public Builder setLastName() {
-            BuilderPattern.this.lastName = lastName;
+        public Builder lastName() {
+            this.lastName = lastName;
             return this;
         }
         public BuilderPattern build() {
-            return BuilderPattern.this;
+            return new BuilderPattern(firstName, lastName);
         }
     }
 }
